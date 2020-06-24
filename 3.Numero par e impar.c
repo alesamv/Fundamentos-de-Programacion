@@ -5,7 +5,7 @@ int x;
 
 main()
 {
-	printf("\t\t¿NUMERO PAR O IMPAR?\n");
+	printf("\t\tÂ¿NUMERO PAR O IMPAR?\n");
 	printf("Introduce el numero:");
 	scanf("%d",&x);
 	
@@ -13,12 +13,11 @@ main()
 	if(x%2==0)
 	{
 		printf("\nEs par");
-		getch();
 	}
 	else
 	{
 		printf("\nEs impar");
-		getch();
 	}
+	getch();
 	
 }
